@@ -88,7 +88,7 @@ fetch(urlTeam)
                                 nameSpan = createNode("span");
 
                                 li.className = "col-md-3";
-                                a.href = "playerDetail.html?"+ mvp.FirstName+""+mvp.lastName;
+                                a.href = "playerDetails.html?"+ mvp.PlayerID;
                                 img.src = mvp.PhotoUrl;
                                 
                                 span1.innerHTML = mvp.Jersey;
