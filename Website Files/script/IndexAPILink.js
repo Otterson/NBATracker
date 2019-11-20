@@ -115,7 +115,7 @@ fetch(urlCurrSeason)
 			}
 		}
 		makeLastGame(lastGame);
-		makeScrollingSchedule(games);
+		makeScrollingSchedule(games.slice(0,25));
 
 		//pull next 7 games for matchings table
 		let fixtures = games.slice(0, 7);
@@ -143,11 +143,12 @@ function makeScrollingSchedule(schedule) {
 			span2 = createNode('span');
 
 		//set tags
-		div.className = "sportsmagazine-fixture-slider-layer";
+		div.className = "sportsmagazine-fixture-slider-layer ";
 		ul.className = "sportsmagazine-bgcolor";
 		li.className = "first-child";
-		li.innerHTML = `${game.HomeTeam}`;
-		li2.innerHTML = `${game.AwayTeam}`
+		
+		li.innerHTML = game.HomeTeam;
+		li2.innerHTML = game.AwayTeam;
 
 		//process and format date data
 		let date = `${game.DateTime}`;
