@@ -1,0 +1,129 @@
+body {
+	background-color: #19191b;
+	color: #999999;
+}
+body h1, body h2, body h3, body h4, body h5, body h6 {
+	color: #ffffff;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	color: #ffffff;
+}
+.ranking-content-table li,.widget_next_match_title h5,.widget_next_match_title span,.widget_next_match ul li small,.sportsmagazine-client-detail tr > td > span,
+.sportsmagazine-match-fixture .sportsmagazine-client-detail tr > td,.sportsmagazine-fancy-title-two h2,.sportsmagazine-client-detail tr > th,.text-holder h6,
+.sportsmagazine-next-game-text time,.sportsmagazine-game-countdown .countdown-amount,.sportsmagazine-game-countdown .countdown-period,.sportsmagazine-section-heading h2,
+.sportsmagazine-blogmedium-text h5 a,.sportsmagazine-account-tabs .nav-tabs li a,.sportsmagazine-account form ul li label,.sportsmagazine-widget-heading h2,
+.comment-reply-link,.sportsmagazine-contact-form form ul li > label,.sportsmagazine-popular-post-text h5 a,.widget_cetagories ul li a,.ranking-title-table li,
+.sportsmagazine-blog-grid section h2 a,.sportsmagazine-cart-accordion .panel-heading .panel-title a,.popular_news_text a,.sportsmagazine-blog-list h6 a,.sportsmagazine-error-wrap > h3,
+.widget_match_countdown h6,.widget_match_countdown .is-countdown .countdown-amount,.widget_match_countdown .is-countdown .countdown-period,.sportsmagazine-overview-skillbar .skillst span,
+.widget_newsletter form label,.sportsmagazine-register-form.sportsmagazine-login-form label.form-label,.sportsmagazine-gamestats-btn,.sportsmagazine-team-leader-section ul li > span,
+.sportsmagazine-team-leader-section ul.team-leader-head li,.sportsmagazine-form-result h2,.sportsmagazine-shopping-cart > p span,.sportsmagazine-wishlist-graph ul li,
+.sportsmagazine-error-heading > span,.sportsmagazine-shop-list-text .sportsmagazine-summery-option li label { color: #ffffff;}
+.sportsmagazine-match-fixture .sportsmagazine-client-detail tr:nth-child(2n+1),.sportsmagazine-latest-result,.sportsmagazine-score-result,.sportsmagazine-next-game-text,
+.game-countdown-heading,.sportsmagazine-game-countdown .countdown-row,.sportsmagazine-blogmedium-text,.sportsmagazine-blog-medium figure::before,.sportsmagazine-article-options,
+.sportsmagazine-classic-player-text,.sportsmagazine-prev-post, .sportsmagazine-next-post,.sportsmagazine-tags a,.sportsmagazine-article-text,.sportsmagazine-fixture-wrap,
+.sportsmagazine-popular-post::before,.sportsmagazine-popular-post::after,.sportsmagazine-popular-post,.sportsmagazine-popular-post span::before,.sportsmagazine-offstanding-text,
+.sportsmagazine-popular-post span::after,.widget_cetagories ul li a,.widget_matches ul li,.sportsmagazine-blog-grid section,.sportsmagazine-blog-grid figure::before,
+.sportsmagazine-blog-grid-options,.sportsmagazine-cart-box,.sportsmagazine-bloglarge-text::before,.sportsmagazine-bloglarge-text::after,.sportsmagazine-bloglarge-text,
+.sportsmagazine-bloglarge figure::before,.sportsmagazine-bloglarge figure::after,.sportsmagazine-blogmodren-text,.sportsmagazine-blogmodren figure::after,
+.sportsmagazine-cart-total,.sportsmagazine-cart-payment-method,.sportsmagazine-cart-accordion .panel-heading .panel-title a,.sportsmagazine-cart-accordion .panel-body,
+.sportsmagazine-accordion .panel-default::before,.sportsmagazine-accordion .panel-default::after,.sportsmagazine-accordion .panel-body,.sportsmagazine-playoff-staning h4,
+.sportsmagazine-match-info li i,.sportsmagazine-match-info li span,.sportsmagazine-classic-fixture-wrap,.sportsmagazine-client-detail,.ranking-title-table,
+.ranking-content-table:nth-child(2n),.widget_popular_news ul li,.sportsmagazine-blog-list-wrap,.widget_match_countdown h6,.widget_match_countdown .is-countdown,
+.widget_newsletter form,.sportsmagazine-overview,.sportsmagazine-roster-graph h4,.sportsmagazine-team-leader-graph h4,.sportsmagazine-team-leader-graph,
+.sportsmagazine-player-grid-text,.sportsmagazine-player-grid figure::before,.sportsmagazine-player-grid figure::after,.sportsmagazine-player-grid-social,
+.sportsmagazine-form-result h2,.sportsmagazine-shop-list-text,.sportsmagazine-shop-list figure::before,.sportsmagazine-shop-list figure::after,
+.sportsmagazine-shopping-cart h4,.sportsmagazine-shopping-cart,.sportsmagazine-update-shipping,.sportsmagazine-wishlist,.sportsmagazine-player-slider-image { background-color: #272729;}
+.filter > small::before,.filter > small::after { border-color: #616163;}
+.sportsmagazine-match-info li i::after { border-left-color: #272729;}
+.sportsmagazine-player-grid figure span::before,.sportsmagazine-player-grid figure span::after { border-bottom-color: #272729;}
+.sportsmagazine-player-slider-image,.sportsmagazine-shopping-cart .sportsmagazine-client-detail tr > td > .color-change::before { border-color: #272729;}
+.sportsmagazine-blogmodren figure::before,.sportsmagazine-match-info li span::after,.sportsmagazine-classic-team-one::after,.sportsmagazine-classic-team-two::after { border-bottom-color: #272729;}
+.sportsmagazine-match-fixture .player-stats-text span,.sportsmagazine-result-one section span,.sportsmagazine-next-game-text > span,.sportsmagazine-post-arrow,
+.sportsmagazine-blogmedium-option li time, .sportsmagazine-blogmedium-option li small,.sportsmagazine-counter .slick-arrow i,.sportsmagazine-tags a,
+.sportsmagazine-contact-form form p textarea,.sportsmagazine-blog-grid-thumb,.sportsmagazine-readmore-btn,.sportsmagazine-contact-us-text li time,.widget-awards-text span,
+.sportsmagazine-first-team-info > span, .sportsmagazine-second-team-info > span,.sportsmagazine-match-info li span,.sportsmagazine-client-detail tr > td,
+.sportsmagazine-login-form form ul li a,.sportsmagazine-login-form form ul li input[type="submit"],.sportsmagazine-login-form span a,.sportsmagazine-overview-score span,
+.sportsmagazine-overview-score time,.sportsmagazine-overview-team-one section > span, .sportsmagazine-overview-team-two section > span,.sportsmagazine-shop-list-text .sportsmagazine-summery-option li input[type="number"],
+.sportsmagazine-overview-player-name p,.sportsmagazine-shop-tabs .nav-tabs li a,.sportsmagazine-shop-grid section > .price-cart del ,.sportsmagazine-shopping-cart .sportsmagazine-client-detail tr > td,
+.sportsmagazine-shopping-cart .sportsmagazine-client-detail tr > td input[type="number"],.sportsmagazine-wishlist-graph ul li p,.sportsmagazine-error-wrap form input[type="text"] { color: #999999;}
+.sportsmagazine-login-form form ul li a { border-bottom-color: #999999;}
+.sportsmagazine-readmore-btn::before { background-color: #999999;}
+.sportsmagazine-result-text::before,.sportsmagazine-article-options,.widget_cetagories ul li a::after,.widget_matches ul li::after,
+.sportsmagazine-blog-grid-options,.sportsmagazine-player-grid-social { border-top-color: #19191b;}
+.sportsmagazine-shop-grid figure::before { border-bottom-color: #19191b;}
+.sportsmagazine-match-date time,.sportsmagazine-score-result span,.sportsmagazine-buy-ticket-text time { color: #c0c0c0;}
+.sportsmagazine-next-game-text::before,.widget_matches ul li > span::before { border-right-color: #272729;}
+.sportsmagazine-next-game-text::after,.widget_matches ul li > span::after { border-left-color: #272729;}
+.game-countdown-heading::before,.game-countdown-heading::after,.widget_cetagories ul li a::before,.widget_matches ul li::before,.widget_match_countdown h6::before,
+.sportsmagazine-match-info li span::before,.sportsmagazine-classic-team-one::before,.sportsmagazine-classic-team-two::before,.widget_match_countdown h6::after,
+.sportsmagazine-form-result h2::before { border-top-color: #272729;}
+.sportsmagazine-game-countdown .countdown-section::before,.sportsmagazine-blogmedium-social li a,.sportsmagazine-classic-player figure::before,
+.sportsmagazine-classic-player figure::after,.sportsmagazine-counter .slick-arrow,.sportsmagazine-footer-two::before,.sportsmagazine-footer-two::after,
+.sportsmagazine-subheader::before,.sportsmagazine-subheader::after,.sportsmagazine-thumb::before,.sportsmagazine-thumb::after,.sportsmagazine-modern-gallery figure span::before,
+.sportsmagazine-prev-post::before,.sportsmagazine-prev-post::after,.sportsmagazine-next-post::before,.sportsmagazine-next-post::after,.sportsmagazine-modern-gallery figure span::after,
+.widget_matches ul li > span,.sportsmagazine-cartbox-btn,.sportsmagazine-popular-post figure::before,.sportsmagazine-modern-gallery figure::before,.sportsmagazine-modern-gallery figure::after,
+.widget_newsletter form input[type="text"],.sportsmagazine-login-form form ul li input[type="text"],.sportsmagazine-overview-scorecard,
+.sportsmagazine-gamestats-btn,.sportsmagazine-shop-grid figure::after,.sportsmagazine-select select,.sportsmagazine-select::before { background-color: #19191b;}
+.sportsmagazine-blog-medium figure::after,.sportsmagazine-checkout h5 { border-bottom-color: #1d1d1d;}
+.sportsmagazine-blogmedium-social,.sportsmagazine-account-tabs .nav-tabs li a,.sportsmagazine-account-tabs .nav-tabs li:last-child a,.sportsmagazine-account-tabs .nav-tabs { border-color: #1d1d1f;}
+.sportsmagazine-testimonial-text::after,.sportsmagazine-testimonial-text::before,.sportsmagazine-testimonial-text span::before,
+.sportsmagazine-testimonial-text span::after,.sportsmagazine-contact-form form ul li p::before,.sportsmagazine-contact-form form ul li p::after,
+.sportsmagazine-contact-form form ul li p > span::before,.sportsmagazine-contact-form form ul li p > span::after { background-color: #2a2a2c;}
+.sportsmagazine-testimonial-text,.sportsmagazine-contact-form form p input[type="text"],.sportsmagazine-contact-form form ul li p > span,
+.sportsmagazine-contact-form form p textarea { border-color: #2a2a2c;}
+.thumb-list,.sportsmagazine-overview-scorecard ul li { border-bottom-color: #2a2a2c;}
+.sportsmagazine-account form ul li input[type="email"],.sportsmagazine-account form ul li input[type="text"],.sportsmagazine-checkout form ul li textarea { background-color: #19191b; }
+.sportsmagazine-account-tabs,.sportsmagazine-checkout,.sportsmagazine-login-form::before,.sportsmagazine-login-form::after,
+.sportsmagazine-login-form { background-color: #141414;}
+.widget_matches ul li > span::before,.sportsmagazine-shop-tabs .nav-tabs li.shapes.active .shape-one > span::after { border-right-color: #19191b;}
+.widget_matches ul li > span::after,.sportsmagazine-shop-tabs .nav-tabs li > a.shape-two::before { border-left-color: #19191b;}
+.sportsmagazine-pagination > ul > li > a, .sportsmagazine-pagination > ul > li > span,.sportsmagazine-pagination > ul > li > .previous, .sportsmagazine-pagination > ul > li > .next { background-color: #3c3c3c;}
+.sportsmagazine-pagination > ul > li > .previous::before { border-right-color: #3c3c3c;}
+.sportsmagazine-pagination > ul > li > .next::before { border-left-color: #3c3c3c; }
+.sportsmagazine-cart-box h2,.sportsmagazine-cart-box ul li,.sportsmagazine-cart-box h5, .widget_cartbox h5,.sportsmagazine-bloglarge-text p { border-bottom-color: #050507;}
+.sportsmagazine-blogmodren-text time { background-color: #404348;}
+.sportsmagazine-account form ul li input[type="email"], .sportsmagazine-account form ul li input[type="text"],.sportsmagazine-checkout form ul li textarea,
+.sportsmagazine-form-result form input[type="text"] { color: #aaa9a9;}
+.sportsmagazine-cart-accordion .panel-heading .panel-title a::before { background-color: #fff;}
+.sportsmagazine-cart-accordion .panel-title a::after, .sportsmagazine-cart-accordion .panel-heading .panel-title a.collapsed::after { border-color: #fff;}
+.sportsmagazine-accordion .panel-heading .panel-title > a,.sportsmagazine-accordion .panel-heading .panel-title::before,.sportsmagazine-accordion .panel-heading .panel-title::after,
+.ticket-buy-btn { background-color: #303030;}
+.sportsmagazine-match-view h5::before,.sportsmagazine-match-view h5::after { border-bottom-color: #000;}
+.sportsmagazine-match-view h5,.sportsmagazine-match-view span,.widget_awards .slick-arrow { background-color: #000000;}
+.sportsmagazine-match-view span::before { border-right-color: #000;}
+.sportsmagazine-match-view span::after { border-left-color: #000;}
+.sportsmagazine-first-team, .sportsmagazine-second-team { background-color: #303030;}
+.sportsmagazine-first-team::before,.sportsmagazine-second-team::before,.widget_newsletter_btn::before { border-bottom-color: #303030;}
+.sportsmagazine-client-detail tr,.sportsmagazine-playoff-staning h4,.sportsmagazine-blog-list-wrap,.sportsmagazine-roster-graph h4,.sportsmagazine-team-leader-section ul li,
+.sportsmagazine-team-leader-graph h4,.sportsmagazine-shopping-cart .sportsmagazine-client-detail tr,.sportsmagazine-shopping-cart h4,.sportsmagazine-cart-total ul li.total-cart,
+.sportsmagazine-shopping-cart .sportsmagazine-client-detail tr:last-child,.sportsmagazine-update-shipping h4,.sportsmagazine-shopping-cart-total h4,
+.sportsmagazine-wishlist-graph ul li,.sportsmagazine-wishlist h4,.sportsmagazine-cart-total h5,.sportsmagazine-cart-payment-method h5 { border-bottom-color: #3b3b3b;}
+.sportsmagazine-shopping-cart .sportsmagazine-client-detail tr > td input[type="number"],.sportsmagazine-shop-list-text .sportsmagazine-summery-option li input[type="number"] { border-color: #3b3b3b;}
+.widget_match_countdown .is-countdown .countdown-section { border-left-color: #303030;}
+.widget_newsletter_btn input[type="submit"] { background-color: #303030;}
+.sportsmagazine-login-social,.sportsmagazine-cart-total ul li.total-cart { border-top-color: #303030;}
+.sportsmagazine-login-form h4::before,.sportsmagazine-login-form form ul li label.submit-border::before,.sportsmagazine-login-form form ul li label.submit-border::after,
+.sportsmagazine-form-result form::before,.sportsmagazine-form-result form::after,.sportsmagazine-shop-grid section::before,.sportsmagazine-shop-grid section::after,
+.sportsmagazine-shop-grid section > span::before,.sportsmagazine-shop-grid section > span::after,.sportsmagazine-shopping-cart > p input[type="text"],
+.sportsmagazine-error-wrap form::before,.sportsmagazine-error-wrap form::after { background-color: #444444;}
+.sportsmagazine-login-form form ul li input[type="submit"],.sportsmagazine-form-result form input[type="text"],.sportsmagazine-error-wrap form input[type="text"] { border-color: #444444;}
+.sportsmagazine-login-form form ul li label.submit-border span::before,.sportsmagazine-login-form form ul li label.submit-border span::after,
+.sportsmagazine-shop-grid section { border-left-color: #444444;}
+.sportsmagazine-shop-grid section { border-right-color: #444444;}
+.bar-container { background-color: #626262 !important;}
+.filter { background-color: #696969;}
+.filter > small { background-color: #363739;}
+.sportsmagazine-shop-tabs .nav-tabs > li.active > a, .sportsmagazine-shop-tabs .nav-tabs > li.active > a:hover, .sportsmagazine-shop-tabs .nav-tabs > li.active > a:focus { background-color: #43464b; border-color: #43464b;}
+.sportsmagazine-shop-tabs .nav-tabs li > a.shape-two::after { border-right-color: #43464b;}
+.sportsmagazine-shop-tabs .nav-tabs li.shapes.active .shape-one > span::before { border-left-color: #43464b;}
+.sportsmagazine-shop-tabs .nav-tabs > li > a:hover,.sportsmagazine-shop-tabs .nav-tabs li a { border-color: #7a7a7a;}
+.shop-cart-btn,.sportsmagazine-shopping-cart > p input[type="submit"] { background-color: #373a3f;}
+.shop-cart-btn::before { border-left-color: #373a3f;}
+.sportsmagazine-error-transparent { background-color: #000;}
+.sportsmagazine-error-heading > span.error-shape-one::before { border-left-color: #6b6b6b;}
+.sportsmagazine-error-heading > span.error-shape-three::before { border-right-color: #6b6b6b;}
+.sportsmagazine-error-heading > span { background-color: #6b6b6b;}
+.sportsmagazine-error-heading > span.error-shape-two > small::before,.sportsmagazine-error-heading > span.error-shape-two::before { border-top-color: #6b6b6b;}
+.sportsmagazine-error-heading > span.error-shape-two > small::after,.sportsmagazine-error-heading > span.error-shape-two::after { border-bottom-color: #6b6b6b;}
+.sportsmagazine-modren-match-text h5,.sportsmagazine-modren-match-text h6 { color: #2f2f2f;}
+.sportsmagazine-tags a:hover { color: #000;}
