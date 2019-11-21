@@ -140,7 +140,16 @@ function makeScrollingSchedule(schedule) {
 			li = createNode('li'),
 			span1 = createNode('span'),
 			li2 = createNode('li'),
-			span2 = createNode('span');
+			span2 = createNode('span'),
+			arrowLeft = createNode("span"),
+			arrowRight = createNode("span"),
+			iLeft = createNode("i"),
+			iRight = createNode("i");
+
+			arrowLeft.className = "slick-arrow-left slick-arrow";
+			iLeft.className = "fa fa-angle-left";
+			arrowRight.className = "slick-arrow-right slick-arrow";
+			iRight.className = "fa fa-angle-right";
 
 		//set tags
 		div.className = "sportsmagazine-fixture-slider-layer ";
@@ -173,6 +182,9 @@ function makeScrollingSchedule(schedule) {
 		span1.innerHTML = "Home";
 		span2.innerHTML = "Away";
 
+		//build arrows
+		append(arrowLeft, iLeft);
+		append(arrowRight,iRight);
 		//build game block div
 		append(li, span1);
 		append(li2, span2);
@@ -180,7 +192,9 @@ function makeScrollingSchedule(schedule) {
 		append(ul, li2);
 		append(div, time);
 		append(div, ul);
+		//append(scrollingSchedule, arrowLeft);
 		append(scrollingSchedule, div);
+		//append(scrollingSchedule, arrowRight);
 	})
 }
 
