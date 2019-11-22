@@ -1,9 +1,9 @@
-const urlTeam = "https://api.sportsdata.io/v3/nba/scores/json/teams?key=7fa0f5472c3a423ab41e7fd8920f3145";
+const urlTeam = "https://api.sportsdata.io/v3/nba/scores/json/teams?key=197f70e219a1414e8cf0a7ddc192d4f6";
 //API key split into two sections, the team key should be inserted between them to find
 //players for a given team
 
 
-const urlStats = "https://api.sportsdata.io/v3/nba/stats/json/PlayerSeasonStats/2019?key=7fa0f5472c3a423ab41e7fd8920f3145"
+const urlStats = "https://api.sportsdata.io/v3/nba/stats/json/PlayerSeasonStats/2019?key=197f70e219a1414e8cf0a7ddc192d4f6"
 
 
 
@@ -96,7 +96,7 @@ function makeBanner(player){
    
 
 
-    fetch("https://api.sportsdata.io/v3/nba/stats/json/Players/"+player.Team+"?key=7fa0f5472c3a423ab41e7fd8920f3145")
+    fetch("https://api.sportsdata.io/v3/nba/stats/json/Players/"+player.Team+"?key=197f70e219a1414e8cf0a7ddc192d4f6")
     .then(response=>response.json())
     .then(function(data){
         for(i=0;i<data.length;i++){

@@ -15,10 +15,10 @@ const rankingsTable = document.getElementById("rankingsTable");
 const lastGame = document.getElementById("lastGame");
 
 //API links
-const urlCurrSeason = "https://api.sportsdata.io/v3/nba/scores/json/Games/2020?key=7fa0f5472c3a423ab41e7fd8920f3145"
-const urlTeam = "https://api.sportsdata.io/v3/nba/scores/json/teams?key=7fa0f5472c3a423ab41e7fd8920f3145"
-const urlStadium = "https://api.sportsdata.io/v3/nba/scores/json/Stadiums?key=7fa0f5472c3a423ab41e7fd8920f3145"
-const urlRankings = "https://api.sportsdata.io/v3/nba/scores/json/Standings/2020?key=7fa0f5472c3a423ab41e7fd8920f3145"
+const urlCurrSeason = "https://api.sportsdata.io/v3/nba/scores/json/Games/2020?key=197f70e219a1414e8cf0a7ddc192d4f6"
+const urlTeam = "https://api.sportsdata.io/v3/nba/scores/json/teams?key=197f70e219a1414e8cf0a7ddc192d4f6"
+const urlStadium = "https://api.sportsdata.io/v3/nba/scores/json/Stadiums?key=197f70e219a1414e8cf0a7ddc192d4f6"
+const urlRankings = "https://api.sportsdata.io/v3/nba/scores/json/Standings/2020?key=197f70e219a1414e8cf0a7ddc192d4f6"
 
 
 function getMonthString(month) {
