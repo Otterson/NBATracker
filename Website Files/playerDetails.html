@@ -91,7 +91,7 @@
                                 <figure><img id = "headshot" src="extra-images/player-text-img.png" alt=""></figure>
                                 <div class="sportsmagazine-player-thumb-text">
                                     <h2 id="jerseyNumber">10</h2>
-                                    <h3>Darren <br><span>Stayen</span></h3>
+                                    <h3 id="name">Darren <br><span>Stayen</span></h3>
                                     <ul class="sportsmagazine-player-info">
                                         
                                         <li>
@@ -161,7 +161,7 @@
                                </div>
                             </div>
                             <div class="sportsmagazine-section-heading"><h2>Player Stats</h2></div>
-                            <table class="sportsmagazine-client-detail">
+                            <table class="sportsmagazine-client-detail" id="playerStatsTable">
                                 <tr>
                                     <th>Date</th>
                                     <th>Versus</th>
@@ -172,128 +172,57 @@
                                     <th>TO</th>
                                     <th>PTS</th>
                                 </tr>
-                                <tr>
-                                    <td>Mar 24, 2017</td>
-                                    <td>
-                                        <figure><img src="extra-images/player-stats-img1.jpg" alt=""></figure>
-                                        <div class="player-stats-text">
-                                            <h6>Ocean Kings</h6>
-                                            <span>Patrick’s Institute</span>
-                                        </div>
-                                    </td>
-                                    <td>113 - 110  <span>W</span></td>
-                                    <td>01</td>
-                                    <td>02</td>
-                                    <td>00</td>
-                                    <td>02</td>
-                                    <td>11</td>
-                                </tr>
-                                <tr>
-                                    <td>Mar 16, 2017</td>
-                                    <td>
-                                        <figure><img src="extra-images/player-stats-img2.jpg" alt=""></figure>
-                                        <div class="player-stats-text">
-                                            <h6>Bloody Wave</h6>
-                                            <span>Marine College</span>
-                                        </div>
-                                    </td>
-                                    <td>106 - 124<span> L</span></td>
-                                    <td>01</td>
-                                    <td>02</td>
-                                    <td>00</td>
-                                    <td>02</td>
-                                    <td>11</td>
-                                </tr>
-                                <tr>
-                                    <td>Mar 10, 2017</td>
-                                    <td>
-                                        <figure><img src="extra-images/player-stats-img3.jpg" alt=""></figure>
-                                        <div class="player-stats-text">
-                                            <h6>L.A Pirates</h6>
-                                            <span>Bebop Institute</span>
-                                        </div>
-                                    </td>
-                                    <td>95 - 102<span> L</span></td>
-                                    <td>03</td>
-                                    <td>05</td>
-                                    <td>06</td>
-                                    <td>00</td>
-                                    <td>10</td>
-                                </tr>
-                                <tr>
-                                    <td>Mar 4, 2017</td>
-                                    <td>
-                                        <figure><img src="extra-images/player-stats-img4.jpg" alt=""></figure>
-                                        <div class="player-stats-text">
-                                            <h6>Ocean Kings</h6>
-                                            <span>Icarus College</span>
-                                        </div>
-                                    </td>
-                                    <td>110 - 104  <span>W</span></td>
-                                    <td>02</td>
-                                    <td>00</td>
-                                    <td>01</td>
-                                    <td>04</td>
-                                    <td>08</td>
-                                </tr>
-                                <tr>
-                                    <td>Feb 21, 2017</td>
-                                    <td>
-                                        <figure><img src="extra-images/player-stats-img5.jpg" alt=""></figure>
-                                        <div class="player-stats-text">
-                                            <h6>Red Wings</h6>
-                                            <span>Marine College</span>
-                                        </div>
-                                    </td>
-                                    <td>113 - 107  <span>W</span></td>
-                                    <td>01</td>
-                                    <td>01</td>
-                                    <td>04</td>
-                                    <td>05</td>
-                                    <td>12</td>
-                                </tr>
-                                <tr>
-                                    <td>Feb 9, 2017</td>
-                                    <td>
-                                        <figure><img src="extra-images/player-stats-img6.jpg" alt=""></figure>
-                                        <div class="player-stats-text">
-                                            <h6>Lucky Clovers</h6>
-                                            <span>Elric Bros School</span>
-                                        </div>
-                                    </td>
-                                    <td>116 - 100  <span>W</span></td>
-                                    <td>03</td>
-                                    <td>05</td>
-                                    <td>02</td>
-                                    <td>03</td>
-                                    <td>13</td>
-                                </tr>
+                            
+                                
                             </table>
+                            <ul class="sportsmagazine-offstanding-text">
+                                <li>
+                                    <h6>BLK :</h6>
+                                    <span>Blocked Shots</span>
+                                </li>
+                                <li>
+                                    <h6>STL :</h6>
+                                    <span>Steals</span>
+                                </li>
+                                <li>
+                                    <h6>PF :</h6>
+                                    <span>Personal Fouls</span>
+                                </li>
+                                <li>
+                                    <h6>TO :</h6>
+                                    <span>Turnovers</span>
+                                </li>
+                                <li>
+                                    <h6>PTS :</h6>
+                                    <span>Points Scores</span>
+                                </li>
+                           </ul><br>
                             <div class="row">
                                 <div class="col-md-4">
                                     <div class="sportsmagazine-player-accuracy">
+                                        <br>
                                         <div class="sportsmagazine-section-heading"><h2>Player Accuracy</h2></div>
-                                        <p>Lorem ipsum dolor sit amet, consectet ur adipiscing elit. Ut ac males.</p>
-                                        <p>Sed gravida, urna quis tempus sollicitu din, tellus urna suscipit nisl, </p>
+                                        <p>A good basketball player has to be able to make his shots.</p>
+                                        <p></p>
                                     </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <div class="sportsmagazine-player-skillbar">
-                                        <div class="skillst">
-                                            <h6>Shoot Accuracy</h6>
-                                            <span>68%</span>
-                                            <div class="progressbar1" data-width="68" data-target="68"></div>
+                                    <div class="sportsmagazine-player-skillbar" id="progBars">
+                                        <!-- <div class="skillst">
+                                            <h6>Two-Point Accuracy</h6>
+                                            <span id= "2ptAcc">100</span>
+                                            <div id = "bar2" class="progressbar1" ></div>
                                         </div>
                                         <div class="skillst">
-                                            <h6>Pass Accuracy</h6>
-                                            <span>85%</span>
-                                            <div class="progressbar1" data-width="85" data-target="85"></div>
+                                            <h6>Three-Point Accuracy</h6>
+                                            <span id="3ptAcc">85%</span>
+                                            <div id="bar3" class="progressbar1"></div>
                                         </div>
                                         <div class="skillst">
-                                            <h6>Total Accuracy</h6>
-                                            <span>72%</span>
-                                            <div class="progressbar1" data-width="72" data-target="72"></div>
-                                        </div>
+                                            <h6>Free Throw Accuracy</h6>
+                                            <span id="ftAcc">72%</span>
+                                            <div id="barFT" class="progressbar1" ></div>
+                                        </div> -->
                                     </div>
                                 </div>
                             </div>

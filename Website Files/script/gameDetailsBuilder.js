@@ -5,6 +5,7 @@ const urlRankings = "https://api.sportsdata.io/v3/nba/scores/json/Standings/2020
 var currentURL = window.location.href;
 var url = new URL(currentURL);
 var gameID = url.searchParams.get("gameID");
+console.log(gameID);
 
 const resultsBanner = document.getElementById("results");
 
