@@ -143,14 +143,15 @@ fetch(urlCurrSeason)
             divTicket.className = "sportsmagazine-buy-ticket-text";
             time.datetime = "2008-02-14 20:00";
             ticketButton.className = "ticket-buy-btn";
-            ticketButton.href = "schedule.html";
-
 
             let team1Key = game.HomeTeamID, team2Key = game.AwayTeamID;
             //get team data
+			
             fetch(urlTeam)
                 .then((response) => response.json())
                 .then(function (data) {
+					let hometeam = "";
+					let awayteam = "";
                     let teams = data;
                     for (i = 0; i < teams.length; i++) {
                         if (teams[i].TeamID == team1Key) {
@@ -158,19 +159,40 @@ fetch(urlCurrSeason)
                             hSix1.innerHTML = teams[i].Name;
                             span1.innerHTML = teams[i].City;
                             a1.href = "teamDetails.html?team="+teams[i].Name
+							let citybefore1 = teams[i].City.replace(/\s/g,"-");
+							let namebefore1 = teams[i].Name.replace(/\s/g,"-");
+							//hometeam = teams[i].City + "-" + teams[i].Name;
+							hometeam = citybefore1 + "-" + namebefore1;
                         }
                         if (teams[i].TeamID == team2Key) {
                             img2.src = teams[i].WikipediaLogoUrl;
                             hSix2.innerHTML = teams[i].Name;
                             span2.innerHTML = teams[i].City;
                             a2.href = "teamDetails.html?team="+teams[i].Name
-
+							let citybefore2 = teams[i].City.replace(/\s/g,"-");
+							let namebefore2 = teams[i].Name.replace(/\s/g,"-");
+							//awayteam = teams[i].City + "-" + teams[i].Name; 
+							awayteam = citybefore2 + "-" + namebefore2; 
                         }
                     }
-
+					let urlteam = "https://api.seatgeek.com/2/events?performers[home_team].slug=" + hometeam + "&performers.slug=" + awayteam + "&client_id=MTk1MTc5OTV8MTU3NDA1MzExNy43&client_secret=cdd923c98fdd7cff1b1e5f61f1dc9d4c44ef8f92891e8f5f6ac22c8c333f2807";
+					fetch(urlteam)
+					.then((resp) => resp.json())
+					.then(function(getid){
+					let eventid = getid.events[0].id;
+					let urlseat = "https://api.seatgeek.com/2/events/" + eventid + "?client_id=MTk1MTc5OTV8MTU3NDA1MzExNy43&client_secret=cdd923c98fdd7cff1b1e5f61f1dc9d4c44ef8f92891e8f5f6ac22c8c333f2807"; 
+					fetch(urlseat)
+					.then((resp) => resp.json())
+					.then(function(gamebutton){
+						ticketButton.href = gamebutton.url;
+						ticketButton.innerHTML = gamebutton.stats.listing_count + " seats remaining";
+					})
+					})
                 })
-
-            hFive.innerHTML = "Game " + gameNumber.toString();
+			//const urlteam = 'https://api.seatgeek.com/2/events?performers[home_team].slug=cleveland-cavaliers&performers.slug=detroit-pistons&client_id=MTk1MTc5OTV8MTU3NDA1MzExNy43&client_secret=cdd923c98fdd7cff1b1e5f61f1dc9d4c44ef8f92891e8f5f6ac22c8c333f2807';
+			
+			
+			hFive.innerHTML = "Game " + gameNumber.toString();
             spanMid.innerHTML = "VS";
 
             fetch(urlStadium)
@@ -207,7 +229,7 @@ fetch(urlCurrSeason)
             time.innerHTML = monthString + " " + day + ", " + year +
                 " <span />@" + hour + ":" + minute + " " + ampm + "</span />";
             time.style.marginLeft = "0px";
-            ticketButton.innerHTML = "Buy Ticket";
+            //ticketButton.innerHTML = "Buy Ticket";
 
             append(fig1, img1);
             append(divInfo1, hSix1);
