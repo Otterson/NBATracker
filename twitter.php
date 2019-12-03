@@ -17,7 +17,7 @@
 
 </head>
 
-<CENTER> <h1><font color="red"> NBL TWEETS </font></H1> </CENTER>
+<CENTER> <h1><font color="red"> NBA TWEETS </font></H1> </CENTER>
 <BR><BR>
 
 
@@ -35,7 +35,7 @@ $url = "https://api.twitter.com/1.1/search/tweets.json";
 $requestMethod = "GET";
 if (isset($_GET['user'])) {$user = $_GET['user'];} else {$user = "amarthyasa";}
 if (isset($_GET['count'])) {$count = $_GET['count'];} else {$count = 100;}
-$getfield = "?q=#NBL&result_type=mixed&count=$count";
+$getfield = "?q=#NBA&result_type=mixed&count=$count";
 $twitter = new TwitterAPIExchange($settings);
 $string = json_decode($twitter->setGetfield($getfield)->buildOauth($url, $requestMethod)->performRequest(),$assoc = TRUE);
 if(array_key_exists("errors", $string)) {echo "<h3>Sorry, there was a problem.</h3><p>Twitter returned the following error message:</p><p><em>".$string[errors][0]["message"]."</em></p>";exit();}
