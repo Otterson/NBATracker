@@ -396,7 +396,7 @@ function makeNextMatchSections(game) {
 	append(nextMatch, a1);
 	append(nextMatch, divTime);
 	append(nextMatch, a2);
-	append(nextMatch, hSix);
+
 }
 
 function makeRankingsTable() {
