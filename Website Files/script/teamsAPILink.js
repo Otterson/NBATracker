@@ -1,4 +1,4 @@
-const urlTeam = "https://api.sportsdata.io/v3/nba/scores/json/teams?key=197f70e219a1414e8cf0a7ddc192d4f6"
+const urlTeam = "https://api.sportsdata.io/v3/nba/scores/json/teams?key=f55abad313104d79be697b3b6d7d5dfe"
 
 const teamGrid = document.getElementById("teamGrid");
 

@@ -53,10 +53,10 @@ function getMonthString(month) {
 }
 
 //API links
-const urlCurrSeason = "https://api.sportsdata.io/v3/nba/scores/json/Games/2020?key=197f70e219a1414e8cf0a7ddc192d4f6"
-const urlTeam = "https://api.sportsdata.io/v3/nba/scores/json/teams?key=197f70e219a1414e8cf0a7ddc192d4f6"
-const urlStadium = "https://api.sportsdata.io/v3/nba/scores/json/Stadiums?key=197f70e219a1414e8cf0a7ddc192d4f6"
-const urlRankings = "https://api.sportsdata.io/v3/nba/scores/json/Standings/2020?key=197f70e219a1414e8cf0a7ddc192d4f6"
+const urlCurrSeason = "https://api.sportsdata.io/v3/nba/scores/json/Games/2020?key=f55abad313104d79be697b3b6d7d5dfe"
+const urlTeam = "https://api.sportsdata.io/v3/nba/scores/json/teams?key=f55abad313104d79be697b3b6d7d5dfe"
+const urlStadium = "https://api.sportsdata.io/v3/nba/scores/json/Stadiums?key=f55abad313104d79be697b3b6d7d5dfe"
+const urlRankings = "https://api.sportsdata.io/v3/nba/scores/json/Standings/2020?key=f55abad313104d79be697b3b6d7d5dfe"
 
 const gamesGrid = document.getElementById("gamesGrid");
 

@@ -1,10 +1,10 @@
 
 
-const urlTeam = "https://api.sportsdata.io/v3/nba/scores/json/teams?key=197f70e219a1414e8cf0a7ddc192d4f6";
+const urlTeam = "https://api.sportsdata.io/v3/nba/scores/json/teams?key=f55abad313104d79be697b3b6d7d5dfe";
 //API key split into two sections, the team key should be inserted between them to find
 //players for a given team
 const urlDetails1 = "https://api.sportsdata.io/v3/nba/stats/json/Players/";
-const urlDetails2 = "?key=197f70e219a1414e8cf0a7ddc192d4f6";
+const urlDetails2 = "?key=f55abad313104d79be697b3b6d7d5dfe";
 
 const teamRoster = document.getElementById("completeRoster");
 const highlight = document.getElementById("mvp");

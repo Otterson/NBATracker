@@ -1,17 +1,17 @@
-const urlTeam = "https://api.sportsdata.io/v3/nba/scores/json/teams?key=197f70e219a1414e8cf0a7ddc192d4f6";
+const urlTeam = "https://api.sportsdata.io/v3/nba/scores/json/teams?key=f55abad313104d79be697b3b6d7d5dfe";
 //API key split into two sections, the team key should be inserted between them to find
 //players for a given team
 
 
-const urlStats = "https://api.sportsdata.io/v3/nba/stats/json/PlayerSeasonStats/2019?key=197f70e219a1414e8cf0a7ddc192d4f6"
-const urlCurrSeason = "https://api.sportsdata.io/v3/nba/scores/json/Games/2020?key=197f70e219a1414e8cf0a7ddc192d4f6"
+const urlStats = "https://api.sportsdata.io/v3/nba/stats/json/PlayerSeasonStats/2019?key=f55abad313104d79be697b3b6d7d5dfe"
+const urlCurrSeason = "https://api.sportsdata.io/v3/nba/scores/json/Games/2020?key=f55abad313104d79be697b3b6d7d5dfe"
 const urlPlayer1 = "https://api.sportsdata.io/v3/nba/stats/json/PlayerGameStatsByPlayer/";
 // Game date and player ID should be inserted between links 1 and 2 in the format shown here: 2019-NOV-20/20000544
-const urlPlayer2 = "?key=197f70e219a1414e8cf0a7ddc192d4f6"
+const urlPlayer2 = "?key=f55abad313104d79be697b3b6d7d5dfe"
 
 const urlPlayerSeason = "https://api.sportsdata.io/v3/nba/stats/json/PlayerSeasonStatsByPlayer/2019/"
 //insert key between url key
-const urlPlayerSeason2 = "?key=197f70e219a1414e8cf0a7ddc192d4f6"
+const urlPlayerSeason2 = "?key=f55abad313104d79be697b3b6d7d5dfe"
 
 
 var currentURL = window.location.href;
@@ -217,7 +217,7 @@ function makeBanner(player) {
 
 
 
-	fetch("https://api.sportsdata.io/v3/nba/stats/json/Players/" + player.Team + "?key=197f70e219a1414e8cf0a7ddc192d4f6")
+	fetch("https://api.sportsdata.io/v3/nba/stats/json/Players/" + player.Team + "?key=f55abad313104d79be697b3b6d7d5dfe")
 		.then(response => response.json())
 		.then(function (data) {
 			for (i = 0; i < data.length; i++) {
