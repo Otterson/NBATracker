@@ -77,17 +77,20 @@ fetch(urlCurrSeason)
 			let todDay = today.getDate(),
 				todMonth = today.getMonth() + 1;
 			todHour = today.getHours(),
+			todYear = today.getFullYear(),
 				todMin = today.getMinutes();
-			console.log("today: " + todDay + ", " + todMonth);
 
 			let date = `${item.DateTime}`;
-			let month = date.substring(5, 7),
+			let year = date.substring(0,4),
+				month = date.substring(5, 7),
 				day = date.substring(8, 10),
 				hour = date.substring(11, 13),
 				min = date.substring(14, 16);
-
 			//filter out previous games for upcoming section
 			if (parseInt(month) >= todMonth) {
+				if(parseInt(year)<todYear){
+					return false;
+				}
 				if (todMonth == month) {
 					if (day < todDay) {
 						return false;
@@ -105,6 +108,7 @@ fetch(urlCurrSeason)
 			}
 
 		});
+		console.log(games);
 
 		//find most recent game played
 		var lastGame;
